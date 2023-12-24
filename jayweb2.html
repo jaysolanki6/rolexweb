@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            background-image:  url("E:\jaywebphoto.webp");
+            background-position: center;
+            background-size: cover;
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+
+        }
+        .logo{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            line-height: 60px;
+            padding: 0 100px;
+            color: black;
+            cursor: pointer;
+        }
+        nav ul{
+            float: right;
+            margin-right: 20px;
+            padding: 0 100px;
+        }
+        nav ul li{
+           display: inline-block;
+           margin: 0 5px;
+           line-height: 60px;
+           position: relative;
+        }
+        nav ul li a{
+            font-size: 14px;
+            font-weight: 500;
+            color: black;
+            padding: 7px 13px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background: purple;
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+            transition: 0.5s;
+        }
+        nav ul li:hover::after{
+            width: 100%;
+        }
+        .content{
+            width: 100%;
+            top: 50%;
+            position: absolute;
+            transform: translateY(-50%);
+            text-align: center;
+            color: black;
+        }
+        .content h1{
+            font-size: 60px;
+            margin-top: 80px;
+
+        }
+        .content p{
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+
+        }
+        
+    </style>
+    <header>
+        <nav>
+             <label for="logo" class="logo">ROLEX</label>
+             <ul>
+                <li><a link href="E:\jayweb.html" href="#">HOME</a></li>
+                <li><a link href="E:\jayweb2.html"  href="#">ABOUT ME </a></li>
+                <li><a link href="jayweb3.html" href="#">MY WORKS</a></li>
+                <li><a link href="E:\jayweb4.html" href="#">HELP</a></li>
+                <li><a link href="https://youtu.be/HcOc7P5BMi4?si=EkGTu83sxF_v3oHT" href="#">MORE</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>THIS IS ABOUT ME  </h1>
+        <p>My name is jay solanki.I am 17th year old and i study in B.C.A SEM 1. I live in una gujarat. My clg name is A.R BHATT COLLEGE.
+            I study HTML, C language, COMPUTER, FUNDAMENTEL, CSS, JAVASCRIPT and other languageis 
+        </p>
+       
+       </div>
+
+    </body>
+</html>
